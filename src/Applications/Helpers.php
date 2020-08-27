@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Modules;
+namespace App\Applications;
 
 
 class Helpers

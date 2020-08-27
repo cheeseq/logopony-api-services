@@ -2,10 +2,10 @@
 
 namespace Modules\VisitCard;
 
-use App\Modules\VisitCard\Events\ValueObtainedEvent;
-use App\Modules\VisitCard\SVG\Listeners\BackgroundColorListener;
-use App\Modules\VisitCard\SVG\Listeners\LogoListener;
-use App\Modules\VisitCard\VisitCardApplication;
+use App\Applications\VisitCard\Events\ValueObtainedEvent;
+use App\Applications\VisitCard\SVG\Listeners\BackgroundColorListener;
+use App\Applications\VisitCard\SVG\Listeners\LogoListener;
+use App\Applications\VisitCard\VisitCardApplication;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
@@ -21,9 +21,9 @@ class VisitCardGeneratorTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->conf = require __DIR__ . '/../../../src/Modules/VisitCard/config.php';
-        $this->orig = __DIR__ . '/../../tests/orig.svg';
-        $this->black = __DIR__ . '/../../tests/black.svg';
+        $this->conf = require __DIR__ . '/../../../src/Applications/VisitCard/config.php';
+        $this->orig = __DIR__ . '/../../orig.svg';
+        $this->black = __DIR__ . '/../../black.svg';
     }
 
 

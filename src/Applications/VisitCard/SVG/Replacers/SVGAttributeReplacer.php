@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Modules\VisitCard\SVG\Replacers;
+namespace App\Applications\VisitCard\SVG\Replacers;
 
 
-use App\Modules\VisitCard\Element;
-use App\Modules\VisitCard\Replacer;
+use App\Applications\VisitCard\Element;
+use App\Applications\VisitCard\Replacer;
 use SVG\Nodes\SVGNode;
 
 abstract class SVGAttributeReplacer implements Replacer

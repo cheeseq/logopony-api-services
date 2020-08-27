@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Modules\VisitCard\Events;
+namespace App\Applications\VisitCard\Events;
 
 
-use App\Modules\VisitCard\Element;
-use App\Modules\VisitCard\Template;
+use App\Applications\VisitCard\Element;
+use App\Applications\VisitCard\Template;
 use Symfony\Contracts\EventDispatcher\Event;
 
 class ValueObtainedEvent extends Event

@@ -1,9 +1,9 @@
 <?php
 
-use App\Modules\VisitCard\Events\ValueObtainedEvent;
-use App\Modules\VisitCard\SVG\Listeners\BackgroundColorListener;
-use App\Modules\VisitCard\SVG\Listeners\LogoListener;
-use App\Modules\VisitCard\VisitCardApplication;
+use App\Applications\VisitCard\Events\ValueObtainedEvent;
+use App\Applications\VisitCard\SVG\Listeners\BackgroundColorListener;
+use App\Applications\VisitCard\SVG\Listeners\LogoListener;
+use App\Applications\VisitCard\VisitCardApplication;
 use Bramus\Router\Router;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 

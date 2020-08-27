@@ -1,14 +1,14 @@
 <?php
 
 declare(strict_types=1);
-namespace App\Modules\VisitCard\Processors;
+namespace App\Applications\VisitCard\Processors;
 
 
-use App\Modules\Helpers;
-use App\Modules\VisitCard\Element;
-use App\Modules\VisitCard\Events\ValueObtainedEvent;
-use App\Modules\VisitCard\Template;
-use App\Modules\VisitCard\TemplateFactory;
+use App\Applications\Helpers;
+use App\Applications\VisitCard\Element;
+use App\Applications\VisitCard\Events\ValueObtainedEvent;
+use App\Applications\VisitCard\Template;
+use App\Applications\VisitCard\TemplateFactory;
 use Psr\EventDispatcher\EventDispatcherInterface;
 
 class TemplateProcessor

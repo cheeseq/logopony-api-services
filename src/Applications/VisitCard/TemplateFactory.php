@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Modules\VisitCard;
+namespace App\Applications\VisitCard;
 
 
-use App\Modules\VisitCard\SVG\SVGTemplate;
+use App\Applications\VisitCard\SVG\SVGTemplate;
 use InvalidArgumentException;
 
 class TemplateFactory

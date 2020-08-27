@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Modules\VisitCard\SVG\Listeners;
+namespace App\Applications\VisitCard\SVG\Listeners;
 
 
-use App\Modules\VisitCard\Events\ValueObtainedEvent;
+use App\Applications\VisitCard\Events\ValueObtainedEvent;
 use SVG\Nodes\SVGGenericNodeType;
 use SVG\Nodes\SVGNode;
 use SVG\SVG;

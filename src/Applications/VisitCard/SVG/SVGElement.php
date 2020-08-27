@@ -1,14 +1,14 @@
 <?php
 
 
-namespace App\Modules\VisitCard\SVG;
+namespace App\Applications\VisitCard\SVG;
 
 
-use App\Modules\VisitCard\Element;
-use App\Modules\VisitCard\Replacer;
-use App\Modules\VisitCard\SVG\Replacers\SVGBackgroundColorReplacer;
-use App\Modules\VisitCard\SVG\Replacers\SVGElementReplacer;
-use App\Modules\VisitCard\SVG\Replacers\SVGValueReplacer;
+use App\Applications\VisitCard\Element;
+use App\Applications\VisitCard\Replacer;
+use App\Applications\VisitCard\SVG\Replacers\SVGBackgroundColorReplacer;
+use App\Applications\VisitCard\SVG\Replacers\SVGElementReplacer;
+use App\Applications\VisitCard\SVG\Replacers\SVGValueReplacer;
 use SVG\Nodes\SVGNode;
 
 class SVGElement implements Element

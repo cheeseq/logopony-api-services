@@ -1,5 +1,5 @@
 <?php
-namespace App\Modules\VisitCard;
+namespace App\Applications\VisitCard;
 
 interface Template
 {

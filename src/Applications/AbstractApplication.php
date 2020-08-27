@@ -1,12 +1,12 @@
 <?php
 
 
-namespace App\Modules;
+namespace App\Applications;
 
 
 use Rakit\Validation\Validator;
 
-abstract class Application
+abstract class AbstractApplication
 {
     protected array $config;
     protected array $request;

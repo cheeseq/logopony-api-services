@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Modules\VisitCard\SVG\Replacers;
+namespace App\Applications\VisitCard\SVG\Replacers;
 
 
 class SVGBackgroundColorReplacer extends SVGAttributeReplacer

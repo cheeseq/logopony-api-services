@@ -1,11 +1,11 @@
 <?php
 
 
-namespace App\Modules\VisitCard\SVG;
+namespace App\Applications\VisitCard\SVG;
 
 
-use App\Modules\VisitCard\Element;
-use App\Modules\VisitCard\Template;
+use App\Applications\VisitCard\Element;
+use App\Applications\VisitCard\Template;
 use SVG\SVG;
 
 class SVGTemplate implements Template

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Modules\VisitCard\Processors;
+namespace App\Applications\VisitCard\Processors;
 
 
 use TCPDF;

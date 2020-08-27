@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Modules\VisitCard;
+namespace App\Applications\VisitCard;
 
-use App\Modules\Application;
-use App\Modules\VisitCard\Processors\TemplateProcessor;
-use App\Modules\VisitCard\Processors\ZipProcessor;
+use App\Applications\AbstractApplication;
+use App\Applications\VisitCard\Processors\TemplateProcessor;
+use App\Applications\VisitCard\Processors\ZipProcessor;
 use App\ValidationRules\IsDirectoryRule;
 use App\ValidationRules\IsFileOrDirRule;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Rakit\Validation\Validator;
 
-class VisitCardApplication extends Application
+class VisitCardApplication extends AbstractApplication
 {
     private EventDispatcherInterface $eventDispatcher;
 
