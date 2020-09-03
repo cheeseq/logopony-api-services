@@ -1,4 +1,4 @@
-## Logopony.com API Services
+## API Services
 _Please note: this project is still in development state and may not work properly. I'm planning
 to finish this, add more docs and PHPUnit tests_  
   
